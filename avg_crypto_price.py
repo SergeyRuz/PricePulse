@@ -71,7 +71,7 @@ def fetch_price(coin: str, session: requests.Session):
         coin (str): coin name
         session (requests.Session): Requests session for HTTP calls.
     Raises:
-        Exception: log Network execption every 5 retries else break
+        Exception: log Network exception every 5 retries else break
     Returns:
         price, formatted_timestamp: return price of coin and timestamp
     """
